@@ -19,5 +19,10 @@ public class HelloWorldController implements Controller {
 
 		return new ModelAndView("welcome", map);
 	}
+	
+	private int multiplication(int x, int y){
+		
+		return x*y;
+	}
 
 }
